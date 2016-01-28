@@ -1,0 +1,57 @@
+body{
+	margin: 0 auto;
+	padding-top: 84px;
+	background-color: #e0f1ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+}
+
+/** text field style **/
+
+.courseField{
+	display: block;
+	width: 72%;
+	height: 60px;
+	margin: 20px;
+	padding: 0px 6px;
+	font-size: 20pt;
+}
+
+.syllabusField input{
+	height: 60px;
+	margin: 20px;
+	padding: 0px 6px;
+	font-size: 20pt;
+}
+
+.syllabusField input[type=number]{
+	width: 10%;	
+}
+
+.syllabusField input[type=text] {
+	width: 60%;
+}
+
+/** button style **/
+button {
+	border: none;
+	padding: 12px 20px;
+	font-size: 12pt;
+}
+
+.addMoreButton {
+	background-color: #baac8c;
+}
+
+.mainButton {
+	display: block;
+	margin: 30px auto;
+	font-size: 20pt;
+	background-color: #246eb0;
+}
+
+.mainButton span {
+	color: white;
+	letter-spacing: 2px;
+}
+

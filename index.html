@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+	<link href="public/css/default.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="public/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="public/css/nav-custom.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Navbar Starts here-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      		</button>
+      		<a class="navbar-brand" href="#">Course Dashboard</a>
+    	</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="mynav">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Course dashboard</a></li>
+				<li><a href="#">Add a grade</a></li>
+				<li><a href="#">Grade performance</a></li>
+				<li><a href="#">Log out</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div id="header">
+	<h1 style="text-align:center;">Course Dashboard</h1>
+</div>
+
+<div id="addCourse" class="container">
+	<span>You don't have any courses yet. Add one now to start tracking your learning progress!</span>
+	<input type="text" placeholder="Course code" class="courseField">
+	
+	<span>Add your syllabus breakdown so we can handle all the grade calculations for you!<br>(ex: midterm 1 is worth 25%)</span>
+	<div id="assignments">
+		<form id="syllabus" class="syllabusField">
+			<input type="text" placeholder="Assignment">
+			<input type="number" placeholder="%" min="0" max="100">
+		</form>
+	</div>
+	<button class="addMoreButton" id="addAssignments">Add more assignments!</button>
+
+	<button class="mainButton"><span>Add this course</span></button>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (blelow), or include individual files as needed -->
+	<script src="public/js/bootstrap.min.js"></script>
+	<script src="public/js/index.js"></script>
+</body>
