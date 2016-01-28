@@ -1,4 +1,4 @@
-Lab 2
+CHECKBOARD
 ====
 
-Lab 2 introduces you to static HTML, CSS, and Bootstrap.
+Learning progress visualization
